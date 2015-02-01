@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3411710640</fileChecksum>
+  <configuration>
+    <name>Build .hex for CC1110</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Build .hex for CC2510</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Debug on CC1110</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\..\code\PER_test\include\uart.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\hal_bui_joystick.pbi</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\include\hal_main.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nlxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\..\code\PER_test\include\hal_i2c.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Exe\per_test.d51</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\hal_wait.pbi</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Exe\FrSky_D8_rx.d51</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\hal_power_clk_mgmt.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2510.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\config\lnk51ew_cc1110.xcl</file>
+      <file>$PROJ_DIR$\..\code\PER_test\include\hal_types.h</file>
+      <file>$PROJ_DIR$\..\code\PER_test\include\per_test_dma.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\util_lcd_logo.pbi</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\include\hal_power_clk_mgmt.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\hal_bui_lcd.r51</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\include\hal_bui_SmartRF04EB.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\per_test.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\FrSky_D8_rx.pbd</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\include\hal_adc_mgmt.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\hal_adc_mgmt.r51</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\per_test_radio.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\util_lcd_logo.r51</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\include\hal_bui_button.h</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\include\hal_bui_lcd.h</file>
+      <file>$PROJ_DIR$\..\code\PER_test\include\per_test_main.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\per_test_menu.pbi</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\per_test_main.r51</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\include\hal_io_mgmt.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\hal_bui_button.r51</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\hal_bui_lcd.pbi</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\per_test_radio.r51</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\include\hal_interrupt_mgmt.h</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\include\hal_defines.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\hal_bui_button.pbi</file>
+      <file>$PROJ_DIR$\Debug on CC1110\List\per_test.map</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\per_test_main.pbi</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\per_test_dma.c</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\flash_asm.s51</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\flash_asm.r51</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\source\hal_bui_joystick.c</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\source\hal_bui_button.c</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\source\hal_power_clk_mgmt.c</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\source\hal_adc_mgmt.c</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\source\hal_wait.c</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\per_test_menu.c</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\hal_adc_mgmt.pbi</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\uart.c</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\include\hal_bui_joystick_SmartRF04EB.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\per_test_menu.r51</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\hal_power_clk_mgmt.r51</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC1110.h</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\per_test_dma.r51</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\per_test_dma.pbi</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\util\util_lcd_logo.c</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\hal_wait.r51</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\per_test_main.c</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\source\hal_bui_lcd.c</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\per_test_radio.c</file>
+      <file>$PROJ_DIR$\Debug on CC1110\Obj\hal_bui_joystick.r51</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug on CC1110\Exe\per_test.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 12 24 34 64 18 55 60 57 32 54 36 27 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug on CC1110\Obj\per_test.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 51 39 2 35 9 7 58 41 31 25 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug on CC1110\Obj\FrSky_D8_rx.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 51 39 2 35 9 7 58 41 31 25 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\per_test_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53 14 30</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53 14 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\flash_asm.s51</name>
+      <outputs>
+        <tool>
+          <name>A8051</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A8051</name>
+          <file> 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\Library\HAL_BUI\source\hal_bui_joystick.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\Library\HAL_BUI\source\hal_bui_button.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\Library\HAL\source\hal_power_clk_mgmt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 3 38 33 37 23 13 56 19 29 28 53</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 16 3 38 33 37 23 13 56 19 29 28 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\Library\HAL\source\hal_adc_mgmt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 3 38 33 16 37 13 56 19 29 28 53</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 23 3 38 33 16 37 13 56 19 29 28 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\Library\HAL\source\hal_wait.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\per_test_menu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53 17 26 11 30 14</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53 17 26 11 30 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 26 11 1 3 38 33 16 37 23 13 56 19 29 28 53 30 14</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 17 26 11 1 3 38 33 16 37 23 13 56 19 29 28 53 30 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\util\util_lcd_logo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 38 33 16 37 23 56 19 29 28 53 21 11 17 26</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3 38 33 16 37 23 56 19 29 28 53 21 11 17 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\per_test_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53 30 14 1 5 17 26 11</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53 30 14 1 5 17 26 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\Library\HAL_BUI\source\hal_bui_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\per_test_radio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53 30 14</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3 38 33 16 37 23 13 56 19 29 28 53 30 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 40 6 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Debug on CC2510</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\code\PER_test\include\uart.h</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\include\hal_main.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nlxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\..\code\PER_test\include\hal_i2c.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2510.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\..\code\PER_test\include\hal_types.h</file>
+      <file>$PROJ_DIR$\..\code\PER_test\include\per_test_dma.h</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\include\hal_power_clk_mgmt.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\include\hal_bui_SmartRF04EB.h</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\include\hal_adc_mgmt.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\include\hal_bui_button.h</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\include\hal_bui_lcd.h</file>
+      <file>$PROJ_DIR$\..\code\PER_test\include\per_test_main.h</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\include\hal_io_mgmt.h</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\hal_bui_lcd.pbi</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\include\hal_interrupt_mgmt.h</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\include\hal_defines.h</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\per_test_dma.pbi</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\hal_bui_lcd.r51</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\FrSky_D8_rx.pbd</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Exe\FrSky_D8_rx.d51</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\per_test_menu.pbi</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\hal_power_clk_mgmt.r51</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\flash_asm.r51</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\hal_wait.r51</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\uart.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnk51ew_cc2510.xcl</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\hal_bui_joystick.r51</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\hal_wait.pbi</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\per_test_main.pbi</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\per_test_main.r51</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\hal_bui_button.r51</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\hal_adc_mgmt.r51</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\per_test_radio.pbi</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\hal_power_clk_mgmt.pbi</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\per_test_dma.c</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\flash_asm.s51</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\source\hal_bui_joystick.c</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\source\hal_bui_button.c</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\source\hal_power_clk_mgmt.c</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\source\hal_adc_mgmt.c</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL\source\hal_wait.c</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\per_test_menu.c</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\uart.c</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\include\hal_bui_joystick_SmartRF04EB.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC1110.h</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\per_test_main.c</file>
+      <file>$PROJ_DIR$\..\code\Library\HAL_BUI\source\hal_bui_lcd.c</file>
+      <file>$PROJ_DIR$\..\code\PER_test\source\per_test_radio.c</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\hal_adc_mgmt.pbi</file>
+      <file>$PROJ_DIR$\Debug on CC2510\List\FrSky_D8_rx.map</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\per_test_radio.r51</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\hal_bui_button.pbi</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\hal_bui_joystick.pbi</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\per_test_dma.r51</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\uart.r51</file>
+      <file>$PROJ_DIR$\Debug on CC2510\Obj\per_test_menu.r51</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug on CC2510\Obj\FrSky_D8_rx.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 52 55 56 17 37 31 20 32 36 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug on CC2510\Exe\FrSky_D8_rx.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 29 26 35 34 30 21 25 27 57 33 54 58 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\per_test_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47 7 15</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47 7 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\flash_asm.s51</name>
+      <outputs>
+        <tool>
+          <name>A8051</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A8051</name>
+          <file> 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\Library\HAL_BUI\source\hal_bui_joystick.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\Library\HAL_BUI\source\hal_bui_button.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\Library\HAL\source\hal_power_clk_mgmt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 1 19 16 18 11 6 4 10 14 13 47</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 8 1 19 16 18 11 6 4 10 14 13 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\Library\HAL\source\hal_adc_mgmt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 1 19 16 8 18 6 4 10 14 13 47</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 11 1 19 16 8 18 6 4 10 14 13 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\Library\HAL\source\hal_wait.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\per_test_menu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47 9 12 5 15 7</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47 9 12 5 15 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 12 5 0 1 19 16 8 18 11 6 4 10 14 13 47 15 7</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 9 12 5 0 1 19 16 8 18 11 6 4 10 14 13 47 15 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\per_test_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47 15 7 0 3 9 12 5</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47 15 7 0 3 9 12 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\Library\HAL_BUI\source\hal_bui_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\code\PER_test\source\per_test_radio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47 15 7</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1 19 16 8 18 11 6 4 10 14 13 47 15 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 23 53</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

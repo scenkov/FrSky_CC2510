@@ -1,0 +1,7 @@
+swrc085a:	- Added separate build configurations for debug and release (hex) to
+            the IAR project file for the CC1110/CC2510 Packet Error Rate (PER)
+            Test.
+          - Replaced the pre-built hex file for CC1110 PER test that was not
+            working.
+
+swrc085 :	- Initial version

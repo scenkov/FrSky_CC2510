@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>per_test/Debug on CC2510</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>407</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1395</ColumnWidth1><ColumnWidth2>372</ColumnWidth2><ColumnWidth3>93</ColumnWidth3></Build>
+      <Find-in-Files>
+        <ColumnWidth0>664</ColumnWidth0>
+        <ColumnWidth1>94</ColumnWidth1>
+        <ColumnWidth2>1138</ColumnWidth2>
+      </Find-in-Files>
+      <TerminalIO/>
+      <Debug-Log>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>1861</ColumnWidth1>
+      </Debug-Log>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-32355-21200</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>per_test</ExpandedNode><ExpandedNode>per_test/Output</ExpandedNode><ExpandedNode>per_test/hal</ExpandedNode><ExpandedNode>per_test/hal_bui</ExpandedNode><ExpandedNode>per_test/hal_bui/hal_bui_button.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-27650-21288</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-13891-22160</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-5787-19819</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\code\PER_test\source\per_test_main.c</Filename><XPos>0</XPos><YPos>189</YPos><SelStart>7503</SelStart><SelEnd>7503</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\code\PER_test\source\util\util_lcd_logo.c</Filename><XPos>0</XPos><YPos>88</YPos><SelStart>3965</SelStart><SelEnd>3965</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\code\Library\HAL_BUI\source\hal_bui_joystick.c</Filename><XPos>0</XPos><YPos>54</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\code\Library\HAL\source\hal_power_clk_mgmt.c</Filename><XPos>0</XPos><YPos>58</YPos><SelStart>3858</SelStart><SelEnd>3858</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\code\Library\HAL_BUI\include\hal_bui_SmartRF04EB.h</Filename><XPos>0</XPos><YPos>63</YPos><SelStart>3772</SelStart><SelEnd>3772</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\code\PER_test\source\per_test_radio.c</Filename><XPos>0</XPos><YPos>61</YPos><SelStart>6474</SelStart><SelEnd>6474</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Debug on CC1110\List\per_test.map</Filename><XPos>0</XPos><YPos>390</YPos><SelStart>22479</SelStart><SelEnd>22479</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\code\PER_test\source\per_test_dma.c</Filename><XPos>0</XPos><YPos>85</YPos><SelStart>4896</SelStart><SelEnd>4905</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\code\PER_test\include\per_test_main.h</Filename><XPos>0</XPos><YPos>95</YPos><SelStart>6353</SelStart><SelEnd>6371</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\code\PER_test\include\per_test_dma.h</Filename><XPos>0</XPos><YPos>120</YPos><SelStart>9036</SelStart><SelEnd>9036</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\code\Library\HAL\source\hal_wait.c</Filename><XPos>0</XPos><YPos>49</YPos><SelStart>3678</SelStart><SelEnd>3678</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-004c7670><key>iaridepm.enu1</key></Toolbar-004c7670></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>781</Bottom><Right>481</Right><x>-2</x><y>-2</y><xscreen>229</xscreen><yscreen>214</yscreen><sizeHorzCX>119271</sizeHorzCX><sizeHorzCY>206166</sizeHorzCY><sizeVertCX>251563</sizeVertCX><sizeVertCY>754335</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>212</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>214</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>206166</sizeHorzCY><sizeVertCX>119271</sizeVertCX><sizeVertCY>206166</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
